@@ -59,6 +59,7 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="visarc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2011/resource/visarc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="bzminds LoRa RN2483" Type="EXE">
@@ -69,32 +70,30 @@
 				<Property Name="Bld_buildSpecName" Type="Str">bzminds LoRa RN2483</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../LoRa_RN2483_utility/builds</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Labview/builds</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEE279BB-6C15-439D-8FA1-E18AB9420733}</Property>
 				<Property Name="Destination[0].destName" Type="Str">bzLoRa_RN2483.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../LoRa_RN2483_utility/builds/bzLoRa_RN2483.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Labview/builds/bzLoRa_RN2483.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../LoRa_RN2483_utility/builds/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Labview/builds/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1F410BA-B519-4255-A10A-16A663811A0A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{595470ED-E45F-4E9C-A556-52728DFC8ADA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main_FP.vi</Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Window has title bar</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Show menu bar</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[1].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Show vertical scroll bar</Property>
 				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Show horizontal scroll bar</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[3].type" Type="Str">Show horizontal scroll bar</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">4</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
