@@ -21,6 +21,7 @@
 			<Item Name="radio_transmission_mode.vi" Type="VI" URL="../lib/radio_transmission_mode.vi"/>
 			<Item Name="sys_get.vi" Type="VI" URL="../lib/sys_get.vi"/>
 		</Item>
+		<Item Name="general.errorDialog.vi" Type="VI" URL="../lib/general.errorDialog.vi"/>
 		<Item Name="global.vi" Type="VI" URL="../global.vi"/>
 		<Item Name="main_FP.vi" Type="VI" URL="../main_FP.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
