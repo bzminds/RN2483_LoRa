@@ -6,4 +6,7 @@ Content
 -------
 /Labview
  - Labview application to configure and test RN2483 transceivers in Point to Point communication.
+
+/Documents
+ - Documentation related to RN2483 module
  
